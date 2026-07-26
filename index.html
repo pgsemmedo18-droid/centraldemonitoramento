@@ -1,1191 +1,766 @@
+
+Conversa com o Gemini
+ola
+
+Olá! Tudo bem?
+
+Como posso te ajudar hoje?
+
+preciso de uma leadpage consegue me ajudar?
+
+Com certeza! Posso te ajudar a planejar, estruturar e escrever todo o conteúdo da sua Landing Page (Lead Page) para que ela seja extremamente persuasiva e focado em conversão.
+
+Para começarmos com o pé direito, me conte um pouco mais sobre o seu projeto:
+
+Qual é o seu produto, serviço ou oferta? (Ex: um e-book gratuito, uma consultoria, um curso, um software...)
+
+Quem é o seu público-alvo? (Ex: pequenos empresários, estudantes, mães, profissionais de TI...)
+
+Qual é a ação principal que você quer que a pessoa tome? (Ex: preencher um formulário, chamar no WhatsApp, se cadastrar para uma aula...)
+
+Assim que você me der esses detalhes, posso criar a estrutura completa para você (título chamativo, benefícios, quebra de objeções e a chamada para ação)!
+
+me de uma lead page completa em html entao Informações de Registro
+
+CNPJ: 45.027.864/0001-35 - 45027864000135
+
+Razão Social: Centro de Formacao de Condutores Ab Ellas LTDA
+
+Nome Fantasia: Auto Escola Ellas
+
+Data da Abertura: 26/01/2022 4 anos e 6 meses
+
+Porte: Micro Empresa
+
+Natureza Jurídica: Sociedade Empresária Limitada
+
+Opção pelo MEI: Não
+
+Opção pelo Simples: Não
+
+Data Opção - Exclusão Simples: 26/01/2022 - 31/12/2025
+
+Capital Social: R$ 120.000,00
+
+Tipo: Matriz
+
+Situação: Ativa
+
+Data Situação Cadastral: 26/01/2022
+
+
+
+
+
+Contatos
+
+E-mail: cf****@****.com(Ver E-mail)
+
+Telefone(s):
+
+(11) 236****-****(Ver Telefone)
+
+
+
+Localização
+
+Logradouro: Avenida Fuad Lutfalla, 1076
+
+Bairro: Vila Maria Trindade
+
+CEP: 02968-000
+
+Município: São Paulo
+
+Estado: São Paulo
+
+Seu arquivo HTML com a Landing Page completa para a Auto Escola Ellas está pronto!
+Ícone do app HTML
+auto_escola_ellas_landing_page
+ HTML 
+Aberto
+
+🎨 Destaques da Landing Page Criada:
+Header & Topbar Persuasivos:
+
+Barra superior com localização rápida e destaque de atendimento humanizado.
+
+Botão direto para contato no WhatsApp em destaque no topo.
+
+Hero Section (Primeira Dobra de Alto Impacto):
+
+Headline chamativa: Focada em conquista da CNH com segurança e confiança.
+
+Formulário de Captura de Leads: Coleta de Nome, WhatsApp e Serviço de interesse (1ª Habilitação A, B, AB, Adição, Treinamento para Habilitados/Medo, PCD).
+
+Lista de Benefícios Rápida: Destaque para instrutores pacientes, frota nova e parcelamento em até 12x.
+
+Seção "Por que escolher a Auto Escola Ellas":
+
+Cards visuais destacando: Ensino Humanizado, Frota Atualizada, Flexibilidade de Horários e Condições Facilitadas.
+
+Seção de Serviços:
+
+Detalhamento de Primeira Habilitação, Adição de Categoria, Aulas para Habilitados (Insegurança/Medo de dirigir) e Renovação/PCD.
+
+Banner de Chamada para Ação (CTA):
+
+Bloco em tom rosa/magenta institucional convidando para conversa direta no WhatsApp.
+
+Rodapé Completo e Transparente:
+
+Dados de Registro inclusos: Razão Social (Centro de Formacao de Condutores Ab Ellas LTDA), CNPJ (45.027.864/0001-35) e Endereço Completo (Av. Fuad Lutfalla, 1076 - Vila Maria Trindade, São Paulo - SP).
+
+💻 Como Utilizar:
+Baixe o arquivo .html gerado.
+
+Abra em qualquer navegador para visualizar o design final responsivo (adaptado para celular e computador).
+
+Suba o arquivo diretamente no servidor de hospedagem do seu site ou importe no seu construtor de páginas (WordPress, Elementor, etc.).
+
+
+
+
+Suas conversas com LUIZ F. BRUST & CIA LTDA não são usadas para aprimorar nossos modelos. O Gemini é uma IA e pode cometer erros. Sua privacidade e o GeminiAbre em uma nova janela
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Escola Ellas | Conquiste sua CNH com Confiança</title>
+    <style>
+        :root {
+            --primary: #d63384;
+            --primary-dark: #a82265;
+            --secondary: #2b2d42;
+            --accent: #ffb703;
+            --light-bg: #fff0f5;
+            --card-bg: #ffffff;
+            --text-main: #2d3748;
+            --text-muted: #718096;
+            --border-radius: 12px;
+            --box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+        }
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
 
-<title>Auto Escola Ellas | Tire sua CNH</title>
+        body {
+            color: var(--text-main);
+            background-color: #fafafa;
+            line-height: 1.6;
+        }
 
-<meta name="description" content="Auto Escola Ellas - Tire sua CNH com segurança, rapidez e qualidade.">
+        /* Top Bar */
+        .top-bar {
+            background-color: var(--secondary);
+            color: #ffffff;
+            font-size: 0.85rem;
+            padding: 8px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        .top-bar div {
+            display: flex;
+            gap: 15px;
+        }
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
+        /* Header / Navbar */
+        header {
+            background-color: #ffffff;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            padding: 15px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        .logo {
+            font-size: 1.6rem;
+            font-weight: 800;
+            color: var(--primary);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+        .logo span {
+            color: var(--secondary);
+        }
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        .header-btn {
+            background-color: #25d366;
+            color: #ffffff;
+            padding: 10px 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
 
-<link rel="stylesheet" href="style.css">
+        .header-btn:hover {
+            background-color: #1eb954;
+            transform: translateY(-2px);
+        }
 
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, rgba(214, 51, 132, 0.05) 0%, rgba(255, 183, 3, 0.05) 100%), #ffffff;
+            padding: 60px 5%;
+            display: flex;
+            gap: 40px;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .hero-content {
+            flex: 1;
+            min-width: 320px;
+        }
+
+        .badge {
+            background-color: var(--light-bg);
+            color: var(--primary-dark);
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.85rem;
+            display: inline-block;
+            margin-bottom: 15px;
+            border: 1px solid rgba(214, 51, 132, 0.2);
+        }
+
+        .hero-content h1 {
+            font-size: 2.5rem;
+            color: var(--secondary);
+            line-height: 1.2;
+            margin-bottom: 15px;
+        }
+
+        .hero-content h1 span {
+            color: var(--primary);
+        }
+
+        .hero-content p {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            margin-bottom: 25px;
+        }
+
+        .hero-features {
+            list-style: none;
+            margin-bottom: 30px;
+        }
+
+        .hero-features li {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 500;
+        }
+
+        .hero-features li::before {
+            content: "✓";
+            color: var(--primary);
+            font-weight: bold;
+            background: var(--light-bg);
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Form Card */
+        .hero-form {
+            flex: 0 0 400px;
+            background: #ffffff;
+            padding: 35px;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            border: 1px solid #edf2f7;
+        }
+
+        .hero-form h3 {
+            font-size: 1.4rem;
+            color: var(--secondary);
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .hero-form p {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 5px;
+            color: var(--secondary);
+        }
+
+        .form-group input, .form-group select {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #cbd5e0;
+            border-radius: 8px;
+            font-size: 0.95rem;
+            transition: border 0.3s ease;
+        }
+
+        .form-group input:focus, .form-group select:focus {
+            outline: none;
+            border-color: var(--primary);
+        }
+
+        .submit-btn {
+            width: 100%;
+            background-color: var(--primary);
+            color: white;
+            border: none;
+            padding: 14px;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s ease;
+            margin-top: 10px;
+        }
+
+        .submit-btn:hover {
+            background-color: var(--primary-dark);
+        }
+
+        /* Features Section */
+        .features {
+            padding: 70px 5%;
+            background-color: #ffffff;
+            text-align: center;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            color: var(--secondary);
+            margin-bottom: 10px;
+        }
+
+        .section-subtitle {
+            color: var(--text-muted);
+            margin-bottom: 40px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .feature-card {
+            background-color: #fafafa;
+            padding: 30px;
+            border-radius: var(--border-radius);
+            text-align: left;
+            transition: transform 0.3s ease;
+            border: 1px solid #f0f0f0;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .icon-box {
+            width: 50px;
+            height: 50px;
+            background-color: var(--light-bg);
+            color: var(--primary);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .feature-card h4 {
+            font-size: 1.2rem;
+            color: var(--secondary);
+            margin-bottom: 10px;
+        }
+
+        .feature-card p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        /* Services Section */
+        .services {
+            padding: 70px 5%;
+            background-color: #f8fafc;
+        }
+
+        .service-card {
+            background: #ffffff;
+            border-radius: var(--border-radius);
+            padding: 25px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.03);
+            border-top: 4px solid var(--primary);
+        }
+
+        .service-card h4 {
+            font-size: 1.25rem;
+            color: var(--secondary);
+            margin-bottom: 10px;
+        }
+
+        .service-card p {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            margin-bottom: 15px;
+        }
+
+        .service-link {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+
+        /* CTA Banner */
+        .cta-banner {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            padding: 50px 5%;
+            text-align: center;
+            border-radius: var(--border-radius);
+            margin: 50px 5%;
+        }
+
+        .cta-banner h2 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        .cta-banner p {
+            font-size: 1.1rem;
+            margin-bottom: 25px;
+            opacity: 0.9;
+        }
+
+        .cta-btn {
+            background-color: #25d366;
+            color: white;
+            padding: 15px 35px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            display: inline-block;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            transition: all 0.3s ease;
+        }
+
+        .cta-btn:hover {
+            transform: scale(1.05);
+            background-color: #1eb954;
+        }
+
+        /* Location Section */
+        .location {
+            padding: 60px 5%;
+            background-color: #ffffff;
+            display: flex;
+            gap: 40px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .location-info {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .location-info h3 {
+            font-size: 1.8rem;
+            color: var(--secondary);
+            margin-bottom: 15px;
+        }
+
+        .info-item {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+        }
+
+        .info-item span {
+            font-weight: bold;
+            color: var(--primary);
+        }
+
+        .map-box {
+            flex: 1;
+            min-width: 300px;
+            height: 300px;
+            background-color: #e2e8f0;
+            border-radius: var(--border-radius);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-muted);
+            border: 2px dashed #cbd5e0;
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--secondary);
+            color: #a0aec0;
+            padding: 40px 5% 20px 5%;
+            font-size: 0.85rem;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+
+        .footer-col h5 {
+            color: #ffffff;
+            font-size: 1rem;
+            margin-bottom: 15px;
+        }
+
+        .footer-col p {
+            margin-bottom: 8px;
+        }
+
+        .copyright {
+            border-top: 1px solid #4a5568;
+            padding-top: 20px;
+            text-align: center;
+            font-size: 0.8rem;
+        }
+
+        @media (max-width: 768px) {
+            .hero-content h1 {
+                font-size: 1.8rem;
+            }
+            .hero-form {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
 </head>
-
 <body>
 
-<!-- MENU -->
-
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-
-<div class="container">
-
-<a class="navbar-brand fw-bold" href="#">
-
-🚗 Auto Escola Ellas
-
-</a>
-
-<button class="navbar-toggler"
-
-data-bs-toggle="collapse"
-
-data-bs-target="#menu">
-
-<span class="navbar-toggler-icon"></span>
-
-</button>
-
-<div class="collapse navbar-collapse"
-
-id="menu">
-
-<ul class="navbar-nav ms-auto">
-
-<li class="nav-item">
-
-<a class="nav-link" href="#inicio">
-
-Início
-
-</a>
-
-</li>
-
-<li class="nav-item">
-
-<a class="nav-link" href="#sobre">
-
-Sobre
-
-</a>
-
-</li>
-
-<li class="nav-item">
-
-<a class="nav-link" href="#categorias">
-
-Categorias
-
-</a>
-
-</li>
-
-<li class="nav-item">
-
-<a class="nav-link" href="#vantagens">
-
-Vantagens
-
-</a>
-
-</li>
-
-<li class="nav-item">
-
-<a class="nav-link" href="#contato">
-
-Contato
-
-</a>
-
-</li>
-
-</ul>
-
-<a
-
-href="https://wa.me/5511000000000"
-
-class="btn btn-success ms-lg-3">
-
-<i class="fab fa-whatsapp"></i>
-
-WhatsApp
-
-</a>
-
-</div>
-
-</div>
-
-</nav>
-
-<!-- HERO -->
-
-<section id="inicio" class="hero">
-
-<div class="container">
-
-<div class="row align-items-center">
-
-<div class="col-lg-6">
-
-<span class="badge bg-primary">
-
-CFC Credenciado
-
-</span>
-
-<h1>
-
-Conquiste sua
-
-<span class="text-primary">
-
-CNH
-
-</span>
-
-com quem realmente entende.
-
-</h1>
-
-<p>
-
-A Auto Escola Ellas prepara você para conquistar sua habilitação
-com qualidade, segurança e atendimento personalizado.
-
-</p>
-
-<div class="mt-4">
-
-<a
-
-href="https://wa.me/5511000000000"
-
-class="btn btn-success btn-lg me-3">
-
-<i class="fab fa-whatsapp"></i>
-
-Quero minha CNH
-
-</a>
-
-<a
-
-href="#categorias"
-
-class="btn btn-outline-light btn-lg">
-
-Saiba Mais
-
-</a>
-
-</div>
-
-<div class="row mt-5">
-
-<div class="col-4">
-
-<div class="hero-box">
-
-<h3>
-
-2500+
-
-</h3>
-
-<p>
-
-Alunos
-
-</p>
-
-</div>
-
-</div>
-
-<div class="col-4">
-
-<div class="hero-box">
-
-<h3>
-
-98%
-
-</h3>
-
-<p>
-
-Aprovação
-
-</p>
-
-</div>
-
-</div>
-
-<div class="col-4">
-
-<div class="hero-box">
-
-<h3>
-
-★★★★★
-
-</h3>
-
-<p>
-
-Avaliação
-
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="col-lg-6 text-center">
-
-<img
-
-src="assets/hero.png"
-
-class="img-fluid hero-image"
-
-alt="Auto Escola Ellas">
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- SOBRE -->
-
-<section id="sobre" class="py-5">
-
-<div class="container">
-
-<div class="row align-items-center">
-
-<div class="col-lg-6">
-
-<img
-
-src="assets/carro.png"
-
-class="img-fluid rounded">
-
-</div>
-
-<div class="col-lg-6">
-
-<h2>
-
-Quem Somos
-
-</h2>
-
-<p>
-
-A Auto Escola Ellas oferece formação de condutores com foco
-na excelência, atendimento humanizado e alto índice de aprovação.
-
-</p>
-
-<div class="row">
-
-<div class="col-6">
-
-<div class="info-card">
-
-<i class="fas fa-car-side"></i>
-
-<h5>
-
-Veículos Novos
-
-</h5>
-
-</div>
-
-</div>
-
-<div class="col-6">
-
-<div class="info-card">
-
-<i class="fas fa-user-tie"></i>
-
-<h5>
-
-Instrutores
-
-</h5>
-
-</div>
-
-</div>
-
-<div class="col-6">
-
-<div class="info-card">
-
-<i class="fas fa-wallet"></i>
-
-<h5>
-
-Parcelamento
-
-</h5>
-
-</div>
-
-</div>
-
-<div class="col-6">
-
-<div class="info-card">
-
-<i class="fas fa-award"></i>
-
-<h5>
-
-Qualidade
-
-</h5>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- CATEGORIAS -->
-
-<section id="categorias" class="py-5 bg-light">
-
-<div class="container">
-
-<div class="text-center mb-5">
-
-<h2>
-
-Categorias
-
-</h2>
-
-<p>
-
-Escolha a habilitação ideal para você.
-
-</p>
-
-</div>
-
-<div class="row g-4">
-<div class="col-lg-4">
-
-<div class="card categoria-card shadow">
-
-<div class="card-body text-center">
-
-<div class="icone mb-3">
-
-🏍️
-
-</div>
-
-<h3>Categoria A</h3>
-
-<p>
-
-Habilitação para motocicletas com aulas teóricas e práticas.
-
-</p>
-
-<ul class="list-unstyled">
-
-<li>✔ Aulas Teóricas</li>
-
-<li>✔ Aulas Práticas</li>
-
-<li>✔ Simulados</li>
-
-<li>✔ Parcelamento</li>
-
-</ul>
-
-<a href="https://wa.me/5511000000000"
-
-class="btn btn-success w-100">
-
-Tenho Interesse
-
-</a>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="col-lg-4">
-
-<div class="card categoria-card shadow destaque">
-
-<div class="card-body text-center">
-
-<div class="icone mb-3">
-
-🚗
-
-</div>
-
-<h3>Categoria B</h3>
-
-<p>
-
-Aprenda a dirigir com segurança e confiança.
-
-</p>
-
-<ul class="list-unstyled">
-
-<li>✔ Carros Novos</li>
-
-<li>✔ Instrutores Experientes</li>
-
-<li>✔ Simulados</li>
-
-<li>✔ Parcelamento</li>
-
-</ul>
-
-<a href="https://wa.me/5511000000000"
-
-class="btn btn-primary w-100">
-
-Quero Minha CNH
-
-</a>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="col-lg-4">
-
-<div class="card categoria-card shadow">
-
-<div class="card-body text-center">
-
-<div class="icone mb-3">
-
-🏍️🚗
-
-</div>
-
-<h3>Categoria AB</h3>
-
-<p>
-
-Moto e carro no mesmo processo.
-
-</p>
-
-<ul class="list-unstyled">
-
-<li>✔ Melhor Custo</li>
-
-<li>✔ Curso Completo</li>
-
-<li>✔ Atendimento VIP</li>
-
-<li>✔ Parcelamento</li>
-
-</ul>
-
-<a href="https://wa.me/5511000000000"
-
-class="btn btn-success w-100">
-
-Fazer Matrícula
-
-</a>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<section id="vantagens" class="py-5">
-
-<div class="container">
-
-<div class="text-center mb-5">
-
-<span class="subtitulo">
-
-POR QUE ESCOLHER A ELLAS
-
-</span>
-
-<h2>
-
-Muito mais que uma Auto Escola
-
-</h2>
-
-</div>
-
-<div class="row">
-
-<div class="col-md-3">
-
-<div class="vantagem">
-
-<i class="fas fa-user-graduate"></i>
-
-<h4>Instrutores</h4>
-
-<p>
-
-Equipe altamente qualificada.
-
-</p>
-
-</div>
-
-</div>
-
-<div class="col-md-3">
-
-<div class="vantagem">
-
-<i class="fas fa-car"></i>
-
-<h4>Veículos</h4>
-
-<p>
-
-Frota moderna e confortável.
-
-</p>
-
-</div>
-
-</div>
-
-<div class="col-md-3">
-
-<div class="vantagem">
-
-<i class="fas fa-clock"></i>
-
-<h4>Flexibilidade</h4>
-
-<p>
-
-Horários adaptados ao aluno.
-
-</p>
-
-</div>
-
-</div>
-
-<div class="col-md-3">
-
-<div class="vantagem">
-
-<i class="fas fa-award"></i>
-
-<h4>Aprovação</h4>
-
-<p>
-
-Alto índice de aprovação.
-
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<section class="contador">
-
-<div class="container">
-
-<div class="row text-center">
-
-<div class="col-md-3">
-
-<h2>2500+</h2>
-
-<p>Alunos</p>
-
-</div>
-
-<div class="col-md-3">
-
-<h2>98%</h2>
-
-<p>Aprovação</p>
-
-</div>
-
-<div class="col-md-3">
-
-<h2>12x</h2>
-
-<p>Parcelamento</p>
-
-</div>
-
-<div class="col-md-3">
-
-<h2>★★★★★</h2>
-
-<p>Avaliação</p>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<section class="processo py-5">
-
-<div class="container">
-
-<div class="text-center mb-5">
-
-<h2>
-
-Como Funciona
-
-</h2>
-
-</div>
-
-<div class="row">
-
-<div class="col-md-3">
-
-<div class="step">
-
-<span>1</span>
-
-<h5>Matrícula</h5>
-
-</div>
-
-</div>
-
-<div class="col-md-3">
-
-<div class="step">
-
-<span>2</span>
-
-<h5>Curso Teórico</h5>
-
-</div>
-
-</div>
-
-<div class="col-md-3">
-
-<div class="step">
-
-<span>3</span>
-
-<h5>Aulas Práticas</h5>
-
-</div>
-
-</div>
-
-<div class="col-md-3">
-
-<div class="step">
-
-<span>4</span>
-
-<h5>CNH na Mão</h5>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-<!-- =========================
-DEPOIMENTOS
-========================= -->
-
-<section class="depoimentos py-5 bg-light">
-
-<div class="container">
-
-<div class="text-center mb-5">
-
-<span class="subtitulo">AVALIAÇÕES</span>
-
-<h2>O que nossos alunos dizem</h2>
-
-<p>Veja a opinião de quem conquistou a CNH conosco.</p>
-
-</div>
-
-<div class="row">
-
-<div class="col-lg-4">
-
-<div class="depoimento-card">
-
-<img src="assets/aluno1.jpg" class="cliente">
-
-<h4>Maria Fernanda</h4>
-
-<div class="estrelas">
-
-★★★★★
-
-</div>
-
-<p>
-
-"Passei de primeira! Os instrutores são muito pacientes e atenciosos."
-
-</p>
-
-</div>
-
-</div>
-
-<div class="col-lg-4">
-
-<div class="depoimento-card">
-
-<img src="assets/aluno2.jpg" class="cliente">
-
-<h4>João Henrique</h4>
-
-<div class="estrelas">
-
-★★★★★
-
-</div>
-
-<p>
-
-"Excelente atendimento e ótimo preço. Recomendo a todos."
-
-</p>
-
-</div>
-
-</div>
-
-<div class="col-lg-4">
-
-<div class="depoimento-card">
-
-<img src="assets/aluno3.jpg" class="cliente">
-
-<h4>Ana Carolina</h4>
-
-<div class="estrelas">
-
-★★★★★
-
-</div>
-
-<p>
-
-"Consegui minha habilitação rapidamente. Muito obrigado!"
-
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- =========================
-FAQ
-========================= -->
-
-<section class="faq py-5">
-
-<div class="container">
-
-<div class="text-center mb-5">
-
-<h2>Perguntas Frequentes</h2>
-
-</div>
-
-<div class="accordion" id="faq">
-
-<div class="accordion-item">
-
-<h2 class="accordion-header">
-
-<button class="accordion-button"
-
-data-bs-toggle="collapse"
-
-data-bs-target="#faq1">
-
-Quanto tempo demora para tirar a CNH?
-
-</button>
-
-</h2>
-
-<div id="faq1"
-
-class="accordion-collapse collapse show"
-
-data-bs-parent="#faq">
-
-<div class="accordion-body">
-
-O processo depende do andamento das etapas obrigatórias e da disponibilidade do aluno.
-
-</div>
-
-</div>
-
-</div>
-
-<div class="accordion-item">
-
-<h2 class="accordion-header">
-
-<button class="accordion-button collapsed"
-
-data-bs-toggle="collapse"
-
-data-bs-target="#faq2">
-
-Posso parcelar?
-
-</button>
-
-</h2>
-
-<div id="faq2"
-
-class="accordion-collapse collapse"
-
-data-bs-parent="#faq">
-
-<div class="accordion-body">
-
-Sim! Consulte nossas condições especiais de pagamento.
-
-</div>
-
-</div>
-
-</div>
-
-<div class="accordion-item">
-
-<h2 class="accordion-header">
-
-<button class="accordion-button collapsed"
-
-data-bs-toggle="collapse"
-
-data-bs-target="#faq3">
-
-Como faço minha matrícula?
-
-</button>
-
-</h2>
-
-<div id="faq3"
-
-class="accordion-collapse collapse"
-
-data-bs-parent="#faq">
-
-<div class="accordion-body">
-
-Clique no botão do WhatsApp e nossa equipe fará todo o atendimento.
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- =========================
-CTA
-========================= -->
-
-<section class="cta">
-
-<div class="container text-center">
-
-<h2>
-
-Pronto para conquistar sua liberdade?
-
-</h2>
-
-<p>
-
-Fale agora com nossa equipe e faça sua matrícula.
-
-</p>
-
-<a
-
-href="https://wa.me/5511925408761?text=Olá,%20quero%20tirar%20minha%20CNH."
-
-class="btn btn-success btn-lg px-5">
-
-<i class="fab fa-whatsapp"></i>
-
-QUERO FALAR AGORA
-
-</a>
-
-</div>
-
-</section>
-
-<!-- =========================
-CONTATO
-========================= -->
-
-<section id="contato" class="contato py-5">
-
-<div class="container">
-
-<div class="row">
-
-<div class="col-lg-6">
-
-<h2>
-
-Auto Escola Ellas
-
-</h2>
-
-<p>
-
-Centro de Formação de Condutores AB Ellas LTDA
-
-</p>
-
-<p>
-
-<strong>CNPJ:</strong>
-
-45.027.864/0001-35
-
-</p>
-
-<p>
-
-<strong>Endereço:</strong>
-
-Av. Fuad Lutfalla, 1076
-
-<br>
-
-Vila Maria Trindade
-
-<br>
-
-São Paulo - SP
-
-</p>
-
-<p>
-
-<strong>Telefone:</strong>
-
-(11) 236X-XXXX
-
-</p>
-
-</div>
-
-<div class="col-lg-6">
-
-<form>
-
-<div class="mb-3">
-
-<input
-
-type="text"
-
-class="form-control"
-
-placeholder="Nome">
-
-</div>
-
-<div class="mb-3">
-
-<input
-
-type="email"
-
-class="form-control"
-
-placeholder="E-mail">
-
-</div>
-
-<div class="mb-3">
-
-<input
-
-type="text"
-
-class="form-control"
-
-placeholder="WhatsApp">
-
-</div>
-
-<div class="mb-3">
-
-<textarea
-
-class="form-control"
-
-rows="5"
-
-placeholder="Mensagem"></textarea>
-
-</div>
-
-<button class="btn btn-primary w-100">
-
-Enviar
-
-</button>
-
-</form>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<footer>
-
-<div class="container">
-
-<div class="row">
-
-<div class="col-md-6">
-
-<h4>🚗 Auto Escola Ellas</h4>
-
-<p>
-
-© 2026 Todos os direitos reservados.
-
-</p>
-
-</div>
-
-<div class="col-md-6 text-end">
-
-<a href="#"><i class="fab fa-facebook"></i></a>
-
-<a href="#"><i class="fab fa-instagram"></i></a>
-
-<a href="#"><i class="fab fa-whatsapp"></i></a>
-
-</div>
-
-</div>
-
-</div>
-
-</footer>
-
-<a
-
-href="https://wa.me/5511925408761"
-
-class="whatsapp-float"
-
-target="_blank">
-
-<i class="fab fa-whatsapp"></i>
-
-</a>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-<script src="script.js"></script>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div>
+            📍 Av. Fuad Lutfalla, 1076 - Vila Maria Trindade, SP
+        </div>
+        <div>
+            ⚡ Atendimento Especializado & Instrutores Qualificados
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <a href="#" class="logo">
+            🚗 Auto Escola <span>Ellas</span>
+        </a>
+        <a href="https://wa.me/551123600000" class="header-btn" target="_blank">
+            💬 Falar no WhatsApp
+        </a>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <span class="badge">Aprovação Garantida & Ensino Humanizado</span>
+            <h1>Conquiste sua <span>CNH</span> com facilidade, respeito e segurança!</h1>
+            <p>Seja para tirar a 1ª habilitação ou perder o medo de dirigir, a Auto Escola Ellas oferece o suporte completo que você precisa para alcançar sua liberdade sobre quatro rodas.</p>
+            
+            <ul class="hero-features">
+                <li>Instrutores pacientes e altamente capacitados</li>
+                <li>Frota nova, confortável e com direção hidráulica/elétrica</li>
+                <li>Horários flexíveis para aulas teóricas e práticas</li>
+                <li>Condições de pagamento facilitadas em até 12x</li>
+            </ul>
+        </div>
+
+        <div class="hero-form">
+            <h3>Garanta sua Vaga com Desconto</h3>
+            <p>Preencha abaixo para receber nossa tabela de preços exclusiva no WhatsApp!</p>
+            <form action="#" method="POST" onsubmit="alert('Obrigado! Entraremos em contato em instantes.'); return false;">
+                <div class="form-group">
+                    <label for="name">Nome Completo</label>
+                    <input type="text" id="name" placeholder="Digite seu nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">WhatsApp / Telefone</label>
+                    <input type="tel" id="phone" placeholder="(11) 99999-9999" required>
+                </div>
+                <div class="form-group">
+                    <label for="service">Serviço de Interesse</label>
+                    <select id="service" required>
+                        <option value="">Selecione uma opção...</option>
+                        <option value="1a-cnh-ab">Primeira CNH (Carro e Moto - AB)</option>
+                        <option value="1a-cnh-b">Primeira CNH (Apenas Carro - B)</option>
+                        <option value="1a-cnh-a">Primeira CNH (Apenas Moto - A)</option>
+                        <option value="adicao">Adição de Categoria</option>
+                        <option value="habilitados">Treinamento para Habilitados / Medo</option>
+                        <option value="pcd">Atendimento PCD / Renovação</option>
+                    </select>
+                </div>
+                <button type="submit" class="submit-btn">QUERO MEU DESCONTO AGORA</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <h2 class="section-title">Por que escolher a Auto Escola Ellas?</h2>
+        <p class="section-subtitle">Nós nos preocupamos com o seu aprendizado no seu próprio ritmo, garantindo total confiança ao volante.</p>
+        
+        <div class="grid">
+            <div class="feature-card">
+                <div class="icon-box">🤝</div>
+                <h4>Ensino Humanizado</h4>
+                <p>Didática focada em alunos com ansiedade ou medo de dirigir, garantindo um ambiente seguro e acolhedor.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon-box">🚘</div>
+                <h4>Frota Atualizada</h4>
+                <p>Veículos novos, revisados e equipados com ar-condicionado e direção leve para o seu total conforto.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon-box">📅</div>
+                <h4>Agendamento Rápido</h4>
+                <p>Flexibilidade de horários para conciliar suas aulas teóricas e práticas com sua rotina de trabalho ou estudos.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon-box">💳</div>
+                <h4>Facilidade no Pagamento</h4>
+                <p>Parcelamento facilitado no cartão de crédito ou carnê, com planos sob medida para o seu bolso.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <h2 class="section-title" style="text-align: center;">Nossos Serviços</h2>
+        <p class="section-subtitle" style="text-align: center;">Temos a solução ideal para cada etapa da sua jornada como motorista.</p>
+
+        <div class="grid">
+            <div class="service-card">
+                <h4>1ª Habilitação (A, B ou AB)</h4>
+                <p>Processo completo para obtenção da sua Carteira Nacional de Habilitação para carro e/ou moto com alto índice de aprovação.</p>
+                <a href="#hero-form" class="service-link">Saiba Mais →</a>
+            </div>
+            <div class="service-card">
+                <h4>Adição de Categoria</h4>
+                <p>Já possui CNH de carro e quer pilotar moto, ou vice-versa? Adicione sua nova categoria de forma rápida e descomplique.</p>
+                <a href="#hero-form" class="service-link">Saiba Mais →</a>
+            </div>
+            <div class="service-card">
+                <h4>Aulas para Habilitados</h4>
+                <p>Aulas práticas personalizadas no seu ritmo para quem já tem CNH mas sente insegurança ou medo no trânsito real.</p>
+                <a href="#hero-form" class="service-link">Saiba Mais →</a>
+            </div>
+            <div class="service-card">
+                <h4>Renovação e Processos PCD</h4>
+                <p>Assessoria completa e orientação especializada para renovação de CNH, regularização e processos de habilitação PCD.</p>
+                <a href="#hero-form" class="service-link">Saiba Mais →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-banner">
+        <h2>Pronto para conquistar sua liberdade e dirigir sem medo?</h2>
+        <p>Entre em contato agora mesmo com nossa equipe e tire todas as suas dúvidas pelo WhatsApp!</p>
+        <a href="https://wa.me/551123600000" class="cta-btn" target="_blank">FALAR COM UM CONSULTOR NO WHATSAPP</a>
+    </section>
+
+    <!-- Location Section -->
+    <section class="location">
+        <div class="location-info">
+            <h3>Venha nos Fazer uma Visita!</h3>
+            <p style="margin-bottom: 20px; color: var(--text-muted);">Estamos localizados em uma região de fácil acesso em São Paulo, prontos para te receber com um café quentinho.</p>
+            
+            <div class="info-item">
+                📍 <div><strong>Endereço:</strong><br>Avenida Fuad Lutfalla, 1076 - Vila Maria Trindade<br>São Paulo - SP, CEP: 02968-000</div>
+            </div>
+            <div class="info-item">
+                🏢 <div><strong>Empresa Registrada:</strong><br>Centro de Formacao de Condutores Ab Ellas LTDA<br>CNPJ: 45.027.864/0001-35</div>
+            </div>
+            <div class="info-item">
+                📞 <div><strong>Telefone de Contato:</strong><br>(11) 2360-0000</div>
+            </div>
+        </div>
+        <div class="map-box">
+            📍 [Mapa de Localização - Av. Fuad Lutfalla, 1076]
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h5>Auto Escola Ellas</h5>
+                <p>Centro de Formação de Condutores focado na excelência, respeito e preparação completa para o trânsito seguro.</p>
+            </div>
+            <div class="footer-col">
+                <h5>Informações Legais</h5>
+                <p><strong>Razão Social:</strong> CFC Ab Ellas LTDA</p>
+                <p><strong>CNPJ:</strong> 45.027.864/0001-35</p>
+                <p><strong>Situação Cadastral:</strong> Ativa (Desde 2022)</p>
+            </div>
+            <div class="footer-col">
+                <h5>Localização & Contato</h5>
+                <p>Av. Fuad Lutfalla, 1076 - Vila Maria Trindade</p>
+                <p>São Paulo - SP | CEP: 02968-000</p>
+                <p>Tel: (11) 2360-0000</p>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2026 Auto Escola Ellas (Centro de Formacao de Condutores Ab Ellas LTDA). Todos os direitos reservados.
+        </div>
+    </footer>
 
 </body>
 </html>
+auto_escola_ellas_landing_page.html
+Exibindo auto_escola_ellas_landing_page.html.
