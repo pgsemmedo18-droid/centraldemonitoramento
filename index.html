@@ -1,46 +1,85 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Auto Escola Prime</title>
+
+<title>Auto Escola Ellas | Tire sua CNH</title>
+
+<meta name="description" content="Auto Escola Ellas - Tire sua CNH com segurança, rapidez e qualidade.">
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-<header>
+<!-- MENU -->
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
 
 <div class="container">
 
 <a class="navbar-brand fw-bold" href="#">
 
-🚗 AUTO ESCOLA PRIME
+🚗 Auto Escola Ellas
 
 </a>
 
-<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+<button class="navbar-toggler"
+
+data-bs-toggle="collapse"
+
+data-bs-target="#menu">
 
 <span class="navbar-toggler-icon"></span>
 
 </button>
 
-<div class="collapse navbar-collapse" id="menu">
+<div class="collapse navbar-collapse"
+
+id="menu">
 
 <ul class="navbar-nav ms-auto">
 
 <li class="nav-item">
 
-<a class="nav-link" href="#">Início</a>
+<a class="nav-link" href="#inicio">
+
+Início
+
+</a>
+
+</li>
+
+<li class="nav-item">
+
+<a class="nav-link" href="#sobre">
+
+Sobre
+
+</a>
+
+</li>
+
+<li class="nav-item">
+
+<a class="nav-link" href="#categorias">
+
+Categorias
+
+</a>
 
 </li>
 
@@ -49,16 +88,6 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 <a class="nav-link" href="#vantagens">
 
 Vantagens
-
-</a>
-
-</li>
-
-<li class="nav-item">
-
-<a class="nav-link" href="#planos">
-
-Categorias
 
 </a>
 
@@ -76,15 +105,27 @@ Contato
 
 </ul>
 
+<a
+
+href="https://wa.me/5511000000000"
+
+class="btn btn-success ms-lg-3">
+
+<i class="fab fa-whatsapp"></i>
+
+WhatsApp
+
+</a>
+
 </div>
 
 </div>
 
 </nav>
 
-</header>
+<!-- HERO -->
 
-<section class="hero">
+<section id="inicio" class="hero">
 
 <div class="container">
 
@@ -92,9 +133,9 @@ Contato
 
 <div class="col-lg-6">
 
-<span class="badge bg-primary mb-3">
+<span class="badge bg-primary">
 
-Credenciada pelo DETRAN
+CFC Credenciado
 
 </span>
 
@@ -102,38 +143,124 @@ Credenciada pelo DETRAN
 
 Conquiste sua
 
-<span>CNH</span>
+<span class="text-primary">
 
-com quem realmente aprova.
+CNH
+
+</span>
+
+com quem realmente entende.
 
 </h1>
 
 <p>
 
-Instrutores experientes, veículos novos,
-parcelamento facilitado e atendimento personalizado.
+A Auto Escola Ellas prepara você para conquistar sua habilitação
+com qualidade, segurança e atendimento personalizado.
 
 </p>
 
+<div class="mt-4">
+
 <a
 
-href="https://wa.me/5500000000000"
+href="https://wa.me/5511000000000"
 
-class="btn btn-success btn-lg mt-4">
+class="btn btn-success btn-lg me-3">
 
 <i class="fab fa-whatsapp"></i>
 
-QUERO TIRAR MINHA CNH
+Quero minha CNH
 
 </a>
+
+<a
+
+href="#categorias"
+
+class="btn btn-outline-light btn-lg">
+
+Saiba Mais
+
+</a>
+
+</div>
+
+<div class="row mt-5">
+
+<div class="col-4">
+
+<div class="hero-box">
+
+<h3>
+
+2500+
+
+</h3>
+
+<p>
+
+Alunos
+
+</p>
+
+</div>
+
+</div>
+
+<div class="col-4">
+
+<div class="hero-box">
+
+<h3>
+
+98%
+
+</h3>
+
+<p>
+
+Aprovação
+
+</p>
+
+</div>
+
+</div>
+
+<div class="col-4">
+
+<div class="hero-box">
+
+<h3>
+
+★★★★★
+
+</h3>
+
+<p>
+
+Avaliação
+
+</p>
+
+</div>
+
+</div>
+
+</div>
 
 </div>
 
 <div class="col-lg-6 text-center">
 
 <img
-src="img/carro.png"
-class="img-fluid">
+
+src="assets/hero.png"
+
+class="img-fluid hero-image"
+
+alt="Auto Escola Ellas">
 
 </div>
 
@@ -143,85 +270,104 @@ class="img-fluid">
 
 </section>
 
-<section id="vantagens">
+<!-- SOBRE -->
+
+<section id="sobre" class="py-5">
 
 <div class="container">
 
-<h2 class="text-center mb-5">
+<div class="row align-items-center">
 
-Por que escolher nossa Auto Escola?
+<div class="col-lg-6">
+
+<img
+
+src="assets/carro.png"
+
+class="img-fluid rounded">
+
+</div>
+
+<div class="col-lg-6">
+
+<h2>
+
+Quem Somos
 
 </h2>
 
+<p>
+
+A Auto Escola Ellas oferece formação de condutores com foco
+na excelência, atendimento humanizado e alto índice de aprovação.
+
+</p>
+
 <div class="row">
 
-<div class="col-md-3">
+<div class="col-6">
 
-<div class="card p-4 text-center">
+<div class="info-card">
 
-<i class="fas fa-car fa-3x"></i>
+<i class="fas fa-car-side"></i>
 
-<h4>Carros Novos</h4>
+<h5>
 
-<p>
+Veículos Novos
 
-Frota moderna para facilitar o aprendizado.
-
-</p>
+</h5>
 
 </div>
 
 </div>
 
-<div class="col-md-3">
+<div class="col-6">
 
-<div class="card p-4 text-center">
+<div class="info-card">
 
-<i class="fas fa-user-tie fa-3x"></i>
+<i class="fas fa-user-tie"></i>
 
-<h4>Instrutores</h4>
+<h5>
 
-<p>
+Instrutores
 
-Profissionais qualificados.
-
-</p>
+</h5>
 
 </div>
 
 </div>
 
-<div class="col-md-3">
+<div class="col-6">
 
-<div class="card p-4 text-center">
+<div class="info-card">
 
-<i class="fas fa-wallet fa-3x"></i>
+<i class="fas fa-wallet"></i>
 
-<h4>Parcelamento</h4>
+<h5>
 
-<p>
+Parcelamento
 
-Até 12x no cartão.
-
-</p>
+</h5>
 
 </div>
 
 </div>
 
-<div class="col-md-3">
+<div class="col-6">
 
-<div class="card p-4 text-center">
+<div class="info-card">
 
-<i class="fas fa-award fa-3x"></i>
+<i class="fas fa-award"></i>
 
-<h4>Aprovação</h4>
+<h5>
 
-<p>
+Qualidade
 
-Alto índice de alunos aprovados.
+</h5>
 
-</p>
+</div>
+
+</div>
 
 </div>
 
@@ -232,69 +378,67 @@ Alto índice de alunos aprovados.
 </div>
 
 </section>
-<!--==========================
-CATEGORIAS
-===========================-->
 
-<section id="planos" class="py-5">
+<!-- CATEGORIAS -->
+
+<section id="categorias" class="py-5 bg-light">
 
 <div class="container">
 
 <div class="text-center mb-5">
 
-<span class="text-primary fw-bold">
-ESCOLHA SUA HABILITAÇÃO
-</span>
+<h2>
 
-<h2 class="display-5 fw-bold">
-Categorias Disponíveis
+Categorias
+
 </h2>
 
-<p class="text-muted">
-Escolha a categoria ideal para você.
+<p>
+
+Escolha a habilitação ideal para você.
+
 </p>
 
 </div>
 
 <div class="row g-4">
-
 <div class="col-lg-4">
 
-<div class="card shadow-lg border-0 h-100">
+<div class="card categoria-card shadow">
 
-<div class="card-body text-center p-5">
+<div class="card-body text-center">
 
-<div class="display-1 mb-3">
+<div class="icone mb-3">
+
 🏍️
+
 </div>
 
-<h3>
-Categoria A
-</h3>
+<h3>Categoria A</h3>
 
-<p class="text-muted">
+<p>
 
-Habilitação para motocicletas.
+Habilitação para motocicletas com aulas teóricas e práticas.
 
 </p>
 
 <ul class="list-unstyled">
 
-<li>✔ Curso Completo</li>
+<li>✔ Aulas Teóricas</li>
 
 <li>✔ Aulas Práticas</li>
 
-<li>✔ Parcelamento</li>
+<li>✔ Simulados</li>
 
-<li>✔ Suporte Total</li>
+<li>✔ Parcelamento</li>
 
 </ul>
 
-<a href="https://wa.me/5500000000000"
+<a href="https://wa.me/5511000000000"
 
-class="btn btn-success w-100 mt-3">
+class="btn btn-success w-100">
 
-Quero Categoria A
+Tenho Interesse
 
 </a>
 
@@ -306,41 +450,41 @@ Quero Categoria A
 
 <div class="col-lg-4">
 
-<div class="card shadow-lg border-primary h-100">
+<div class="card categoria-card shadow destaque">
 
-<div class="card-body text-center p-5">
+<div class="card-body text-center">
 
-<div class="display-1 mb-3">
+<div class="icone mb-3">
+
 🚗
+
 </div>
 
-<h3>
-Categoria B
-</h3>
+<h3>Categoria B</h3>
 
-<p class="text-muted">
+<p>
 
-Habilitação para automóveis.
+Aprenda a dirigir com segurança e confiança.
 
 </p>
 
 <ul class="list-unstyled">
 
-<li>✔ Curso Completo</li>
+<li>✔ Carros Novos</li>
 
 <li>✔ Instrutores Experientes</li>
 
-<li>✔ Veículos Novos</li>
+<li>✔ Simulados</li>
 
 <li>✔ Parcelamento</li>
 
 </ul>
 
-<a href="https://wa.me/5500000000000"
+<a href="https://wa.me/5511000000000"
 
-class="btn btn-primary w-100 mt-3">
+class="btn btn-primary w-100">
 
-Quero Categoria B
+Quero Minha CNH
 
 </a>
 
@@ -352,41 +496,41 @@ Quero Categoria B
 
 <div class="col-lg-4">
 
-<div class="card shadow-lg border-0 h-100">
+<div class="card categoria-card shadow">
 
-<div class="card-body text-center p-5">
+<div class="card-body text-center">
 
-<div class="display-1 mb-3">
+<div class="icone mb-3">
+
 🏍️🚗
+
 </div>
 
-<h3>
-Categoria AB
-</h3>
+<h3>Categoria AB</h3>
 
-<p class="text-muted">
+<p>
 
-Moto e Carro juntos.
+Moto e carro no mesmo processo.
 
 </p>
 
 <ul class="list-unstyled">
 
-<li>✔ Melhor Custo Benefício</li>
+<li>✔ Melhor Custo</li>
 
 <li>✔ Curso Completo</li>
 
-<li>✔ Parcelamento</li>
-
 <li>✔ Atendimento VIP</li>
+
+<li>✔ Parcelamento</li>
 
 </ul>
 
-<a href="https://wa.me/5500000000000"
+<a href="https://wa.me/5511000000000"
 
-class="btn btn-success w-100 mt-3">
+class="btn btn-success w-100">
 
-Quero Categoria AB
+Fazer Matrícula
 
 </a>
 
@@ -402,11 +546,107 @@ Quero Categoria AB
 
 </section>
 
-<!--==========================
-NÚMEROS
-===========================-->
+<section id="vantagens" class="py-5">
 
-<section class="bg-primary text-white py-5">
+<div class="container">
+
+<div class="text-center mb-5">
+
+<span class="subtitulo">
+
+POR QUE ESCOLHER A ELLAS
+
+</span>
+
+<h2>
+
+Muito mais que uma Auto Escola
+
+</h2>
+
+</div>
+
+<div class="row">
+
+<div class="col-md-3">
+
+<div class="vantagem">
+
+<i class="fas fa-user-graduate"></i>
+
+<h4>Instrutores</h4>
+
+<p>
+
+Equipe altamente qualificada.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="col-md-3">
+
+<div class="vantagem">
+
+<i class="fas fa-car"></i>
+
+<h4>Veículos</h4>
+
+<p>
+
+Frota moderna e confortável.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="col-md-3">
+
+<div class="vantagem">
+
+<i class="fas fa-clock"></i>
+
+<h4>Flexibilidade</h4>
+
+<p>
+
+Horários adaptados ao aluno.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="col-md-3">
+
+<div class="vantagem">
+
+<i class="fas fa-award"></i>
+
+<h4>Aprovação</h4>
+
+<p>
+
+Alto índice de aprovação.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="contador">
 
 <div class="container">
 
@@ -414,49 +654,33 @@ NÚMEROS
 
 <div class="col-md-3">
 
-<h1 class="fw-bold">
-2500+
-</h1>
+<h2>2500+</h2>
 
-<p>
-Alunos Formados
-</p>
+<p>Alunos</p>
 
 </div>
 
 <div class="col-md-3">
 
-<h1 class="fw-bold">
-98%
-</h1>
+<h2>98%</h2>
 
-<p>
-Aprovação
-</p>
+<p>Aprovação</p>
 
 </div>
 
 <div class="col-md-3">
 
-<h1 class="fw-bold">
-15
-</h1>
+<h2>12x</h2>
 
-<p>
-Anos de Experiência
-</p>
+<p>Parcelamento</p>
 
 </div>
 
 <div class="col-md-3">
 
-<h1 class="fw-bold">
-★★★★★
-</h1>
+<h2>★★★★★</h2>
 
-<p>
-Avaliação dos Clientes
-</p>
+<p>Avaliação</p>
 
 </div>
 
@@ -466,17 +690,13 @@ Avaliação dos Clientes
 
 </section>
 
-<!--==========================
-PROCESSO
-===========================-->
-
-<section class="py-5">
+<section class="processo py-5">
 
 <div class="container">
 
 <div class="text-center mb-5">
 
-<h2 class="display-5 fw-bold">
+<h2>
 
 Como Funciona
 
@@ -484,17 +704,13 @@ Como Funciona
 
 </div>
 
-<div class="row g-4">
+<div class="row">
 
 <div class="col-md-3">
 
-<div class="text-center">
+<div class="step">
 
-<div class="display-4">
-
-1️⃣
-
-</div>
+<span>1</span>
 
 <h5>Matrícula</h5>
 
@@ -504,13 +720,9 @@ Como Funciona
 
 <div class="col-md-3">
 
-<div class="text-center">
+<div class="step">
 
-<div class="display-4">
-
-2️⃣
-
-</div>
+<span>2</span>
 
 <h5>Curso Teórico</h5>
 
@@ -520,13 +732,9 @@ Como Funciona
 
 <div class="col-md-3">
 
-<div class="text-center">
+<div class="step">
 
-<div class="display-4">
-
-3️⃣
-
-</div>
+<span>3</span>
 
 <h5>Aulas Práticas</h5>
 
@@ -536,13 +744,9 @@ Como Funciona
 
 <div class="col-md-3">
 
-<div class="text-center">
+<div class="step">
 
-<div class="display-4">
-
-4️⃣
-
-</div>
+<span>4</span>
 
 <h5>CNH na Mão</h5>
 
@@ -555,100 +759,93 @@ Como Funciona
 </div>
 
 </section>
-
-<!--==========================
+<!-- =========================
 DEPOIMENTOS
-===========================-->
+========================= -->
 
-<section id="depoimentos" class="bg-light py-5">
+<section class="depoimentos py-5 bg-light">
 
 <div class="container">
 
 <div class="text-center mb-5">
 
-<h2>
+<span class="subtitulo">AVALIAÇÕES</span>
 
-O que nossos alunos dizem
+<h2>O que nossos alunos dizem</h2>
 
-</h2>
+<p>Veja a opinião de quem conquistou a CNH conosco.</p>
 
 </div>
 
 <div class="row">
 
-<div class="col-md-4">
+<div class="col-lg-4">
 
-<div class="card shadow border-0">
+<div class="depoimento-card">
 
-<div class="card-body">
+<img src="assets/aluno1.jpg" class="cliente">
 
-★★★★★
+<h4>Maria Fernanda</h4>
 
-<p class="mt-3">
-
-Passei de primeira. Excelente atendimento.
-
-</p>
-
-<strong>
-
-João Carlos
-
-</strong>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="col-md-4">
-
-<div class="card shadow border-0">
-
-<div class="card-body">
+<div class="estrelas">
 
 ★★★★★
 
-<p class="mt-3">
+</div>
 
-Instrutores muito pacientes.
+<p>
+
+"Passei de primeira! Os instrutores são muito pacientes e atenciosos."
 
 </p>
 
-<strong>
-
-Maria Fernanda
-
-</strong>
-
 </div>
 
 </div>
 
-</div>
+<div class="col-lg-4">
 
-<div class="col-md-4">
+<div class="depoimento-card">
 
-<div class="card shadow border-0">
+<img src="assets/aluno2.jpg" class="cliente">
 
-<div class="card-body">
+<h4>João Henrique</h4>
+
+<div class="estrelas">
 
 ★★★★★
 
-<p class="mt-3">
+</div>
 
-Valeu cada centavo.
+<p>
+
+"Excelente atendimento e ótimo preço. Recomendo a todos."
 
 </p>
 
-<strong>
-
-Pedro Henrique
-
-</strong>
+</div>
 
 </div>
+
+<div class="col-lg-4">
+
+<div class="depoimento-card">
+
+<img src="assets/aluno3.jpg" class="cliente">
+
+<h4>Ana Carolina</h4>
+
+<div class="estrelas">
+
+★★★★★
+
+</div>
+
+<p>
+
+"Consegui minha habilitação rapidamente. Muito obrigado!"
+
+</p>
 
 </div>
 
@@ -659,25 +856,18 @@ Pedro Henrique
 </div>
 
 </section>
-<!-- ==========================================
-FAQ
-=========================================== -->
 
-<section class="py-5">
+<!-- =========================
+FAQ
+========================= -->
+
+<section class="faq py-5">
 
 <div class="container">
 
 <div class="text-center mb-5">
 
-<span class="text-primary fw-bold">
-DÚVIDAS
-</span>
-
-<h2 class="display-5 fw-bold">
-
-Perguntas Frequentes
-
-</h2>
+<h2>Perguntas Frequentes</h2>
 
 </div>
 
@@ -691,7 +881,7 @@ Perguntas Frequentes
 
 data-bs-toggle="collapse"
 
-data-bs-target="#f1">
+data-bs-target="#faq1">
 
 Quanto tempo demora para tirar a CNH?
 
@@ -699,7 +889,7 @@ Quanto tempo demora para tirar a CNH?
 
 </h2>
 
-<div id="f1"
+<div id="faq1"
 
 class="accordion-collapse collapse show"
 
@@ -707,7 +897,7 @@ data-bs-parent="#faq">
 
 <div class="accordion-body">
 
-O prazo depende da disponibilidade do aluno e do calendário do DETRAN.
+O processo depende do andamento das etapas obrigatórias e da disponibilidade do aluno.
 
 </div>
 
@@ -723,7 +913,7 @@ O prazo depende da disponibilidade do aluno e do calendário do DETRAN.
 
 data-bs-toggle="collapse"
 
-data-bs-target="#f2">
+data-bs-target="#faq2">
 
 Posso parcelar?
 
@@ -731,7 +921,7 @@ Posso parcelar?
 
 </h2>
 
-<div id="f2"
+<div id="faq2"
 
 class="accordion-collapse collapse"
 
@@ -739,7 +929,7 @@ data-bs-parent="#faq">
 
 <div class="accordion-body">
 
-Sim. Trabalhamos com diversas formas de pagamento e parcelamento.
+Sim! Consulte nossas condições especiais de pagamento.
 
 </div>
 
@@ -755,15 +945,15 @@ Sim. Trabalhamos com diversas formas de pagamento e parcelamento.
 
 data-bs-toggle="collapse"
 
-data-bs-target="#f3">
+data-bs-target="#faq3">
 
-Preciso ter 18 anos?
+Como faço minha matrícula?
 
 </button>
 
 </h2>
 
-<div id="f3"
+<div id="faq3"
 
 class="accordion-collapse collapse"
 
@@ -771,7 +961,7 @@ data-bs-parent="#faq">
 
 <div class="accordion-body">
 
-Você pode iniciar o processo conforme as regras vigentes do DETRAN da sua região.
+Clique no botão do WhatsApp e nossa equipe fará todo o atendimento.
 
 </div>
 
@@ -785,31 +975,31 @@ Você pode iniciar o processo conforme as regras vigentes do DETRAN da sua regi�
 
 </section>
 
-<!-- ==========================================
-CHAMADA FINAL
-=========================================== -->
+<!-- =========================
+CTA
+========================= -->
 
-<section class="bg-dark text-white py-5">
+<section class="cta">
 
 <div class="container text-center">
 
-<h2 class="display-4 fw-bold">
+<h2>
 
-Está pronto para conquistar sua liberdade?
+Pronto para conquistar sua liberdade?
 
 </h2>
 
-<p class="lead">
+<p>
 
-Fale agora com nossa equipe e faça sua matrícula pelo WhatsApp.
+Fale agora com nossa equipe e faça sua matrícula.
 
 </p>
 
 <a
 
-href="https://wa.me/5500000000000?text=Olá,%20quero%20tirar%20minha%20CNH."
+href="https://wa.me/5511000000000?text=Olá,%20quero%20tirar%20minha%20CNH."
 
-class="btn btn-success btn-lg rounded-pill px-5 py-3 mt-4">
+class="btn btn-success btn-lg px-5">
 
 <i class="fab fa-whatsapp"></i>
 
@@ -821,11 +1011,11 @@ QUERO FALAR AGORA
 
 </section>
 
-<!-- ==========================================
+<!-- =========================
 CONTATO
-=========================================== -->
+========================= -->
 
-<section id="contato" class="py-5">
+<section id="contato" class="contato py-5">
 
 <div class="container">
 
@@ -833,27 +1023,47 @@ CONTATO
 
 <div class="col-lg-6">
 
-<h3>
+<h2>
 
-Entre em Contato
+Auto Escola Ellas
 
-</h3>
+</h2>
 
 <p>
 
-📍 Rua Exemplo, 123
+Centro de Formação de Condutores AB Ellas LTDA
 
 </p>
 
 <p>
 
-📞 (00) 0000-0000
+<strong>CNPJ:</strong>
+
+45.027.864/0001-35
 
 </p>
 
 <p>
 
-✉ contato@autoescola.com.br
+<strong>Endereço:</strong>
+
+Av. Fuad Lutfalla, 1076
+
+<br>
+
+Vila Maria Trindade
+
+<br>
+
+São Paulo - SP
+
+</p>
+
+<p>
+
+<strong>Telefone:</strong>
+
+(11) 236X-XXXX
 
 </p>
 
@@ -871,7 +1081,7 @@ type="text"
 
 class="form-control"
 
-placeholder="Seu Nome">
+placeholder="Nome">
 
 </div>
 
@@ -883,7 +1093,7 @@ type="email"
 
 class="form-control"
 
-placeholder="Seu E-mail">
+placeholder="E-mail">
 
 </div>
 
@@ -907,15 +1117,11 @@ class="form-control"
 
 rows="5"
 
-placeholder="Mensagem">
-
-</textarea>
+placeholder="Mensagem"></textarea>
 
 </div>
 
-<button
-
-class="btn btn-primary w-100">
+<button class="btn btn-primary w-100">
 
 Enviar
 
@@ -931,11 +1137,7 @@ Enviar
 
 </section>
 
-<!-- ==========================================
-RODAPÉ
-=========================================== -->
-
-<footer class="bg-black text-white py-4">
+<footer>
 
 <div class="container">
 
@@ -943,45 +1145,23 @@ RODAPÉ
 
 <div class="col-md-6">
 
-<h4>
-
-🚗 Auto Escola Prime
-
-</h4>
+<h4>🚗 Auto Escola Ellas</h4>
 
 <p>
 
-Sua aprovação é nossa prioridade.
+© 2026 Todos os direitos reservados.
 
 </p>
 
 </div>
 
-<div class="col-md-6 text-md-end">
+<div class="col-md-6 text-end">
 
-<a href="#" class="text-white me-3">
+<a href="#"><i class="fab fa-facebook"></i></a>
 
-<i class="fab fa-facebook fa-lg"></i>
+<a href="#"><i class="fab fa-instagram"></i></a>
 
-</a>
-
-<a href="#" class="text-white me-3">
-
-<i class="fab fa-instagram fa-lg"></i>
-
-</a>
-
-<a href="#" class="text-white">
-
-<i class="fab fa-youtube fa-lg"></i>
-
-</a>
-
-<p class="mt-3">
-
-© 2026 Todos os direitos reservados.
-
-</p>
+<a href="#"><i class="fab fa-whatsapp"></i></a>
 
 </div>
 
@@ -991,13 +1171,11 @@ Sua aprovação é nossa prioridade.
 
 </footer>
 
-<!-- BOTÃO FLUTUANTE -->
-
 <a
 
-href="https://wa.me/5500000000000?text=Olá,%20quero%20tirar%20minha%20CNH."
+href="https://wa.me/5511000000000"
 
-class="whatsapp"
+class="whatsapp-float"
 
 target="_blank">
 
@@ -1010,5 +1188,4 @@ target="_blank">
 <script src="script.js"></script>
 
 </body>
-
 </html>
